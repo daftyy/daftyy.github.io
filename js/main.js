@@ -290,13 +290,15 @@
 
 })(jQuery);
 
+
  	/*----------------------------------------------------- */
   	/* Make the header opaque
    ------------------------------------------------------- */ 
    window.onscroll = function() {scrollFunction()};
+   var intro_height = document.getElementById('intro'). offsetHeight;
    
    function scrollFunction() {
-	 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	 if (document.body.scrollTop > intro_height || document.documentElement.scrollTop > intro_height) {
 	   document.getElementById("header").style.background = "black";
 	 } else {
 	   document.getElementById("header").style.background = "transparent";
