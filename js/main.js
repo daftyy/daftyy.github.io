@@ -294,14 +294,13 @@
  	/*----------------------------------------------------- */
   	/* Make the header opaque
    ------------------------------------------------------- */ 
-   window.onscroll = function() {scrollFunction()};
+   window.onscroll = function() {headerOpacityFunction()};
    var intro_height = document.getElementById('intro'). offsetHeight;
    
-   function scrollFunction() {
-	 if (document.body.scrollTop > intro_height || document.documentElement.scrollTop > intro_height) {
+   function headerOpacityFunction() {
+	 if (document.body.scrollTop > intro_height- 65 || document.documentElement.scrollTop > intro_height - 65) {
 	   document.getElementById("header").style.background = "black";
 	 } else {
 	   document.getElementById("header").style.background = "transparent";
 	 }
    }
-   
