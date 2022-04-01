@@ -261,13 +261,22 @@
  	/*----------------------------------------------------- */
   	/* Make the header opaque
    ------------------------------------------------------- */ 
-   window.onscroll = function() {headerOpacityFunction()};
-   var intro_height = document.getElementById('intro'). offsetHeight;
-   
-   function headerOpacityFunction() {
-	 if (document.body.scrollTop > intro_height- 65 || document.documentElement.scrollTop > intro_height - 65) {
-	   document.getElementById("header").style.background = "black";
-	 } else {
-	   document.getElementById("header").style.background = "transparent";
-	 }
-   }
+
+
+
+//(div_height-scroll_amount)/div_height
+
+window.onscroll = function() {headerOpacityFunction()};
+function headerOpacityFunction() {
+	var intro_height = document.getElementById('intro'). offsetHeight;
+
+	document.getElementById("header").style.opacity = 1 - ((intro_height - document.documentElement.scrollTop)/ intro_height)
+  
+  	/*
+  	if (document.body.scrollTop > intro_height- 65 || document.documentElement.scrollTop > intro_height - 65) {
+  	  	document.getElementById("header").style.background = "black";
+  	} else {
+  	  	document.getElementById("header").style.background = "transparent";
+  	}
+  	*/
+}
