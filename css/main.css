@@ -1085,6 +1085,7 @@
   */
  header {
 	 position: fixed;
+	 background: transparent;
 	 width: 100%;
 	 min-height: 66px;
 	 z-index: 600;
@@ -1095,7 +1096,6 @@
  }
  header .top-bar {
 	 display: block;
-	 background: transparent;
 	 min-width: 25px;
 	 min-height: 25px;
 	 position: absolute;
