@@ -258,13 +258,9 @@
 })(jQuery);
 
 
- 	/*----------------------------------------------------- */
-  	/* Make the header opaque
-   ------------------------------------------------------- */ 
-
-
-
-//(div_height-scroll_amount)/div_height
+/*----------------------------------------------------- */
+/* Make the header opaque
+------------------------------------------------------- */ 
 
 window.onscroll = function() {headerOpacityFunction()};
 function headerOpacityFunction() {
