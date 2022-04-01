@@ -1085,7 +1085,8 @@
   */
  header {
 	 position: fixed;
-	 background: transparent;
+	 background: black;
+	 opacity: 0;
 	 width: 100%;
 	 min-height: 66px;
 	 z-index: 600;
