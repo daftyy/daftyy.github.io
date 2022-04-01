@@ -1090,7 +1090,7 @@
 	 z-index: 600;
  }
  header .row {
-	 position: relative;
+	 position: fixed;
 	 min-height: 66px;
  }
  header .top-bar {
@@ -2597,4 +2597,3 @@
  }
  
  /*# sourceMappingURL=main.css.map */
- 
