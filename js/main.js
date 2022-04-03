@@ -209,4 +209,3 @@ function headerOpacityFunction() {
 		document.getElementById("headerbg").style.opacity = 1 - ((intro_height - document.documentElement.scrollTop)/ intro_height)
 	}
 }
-	
