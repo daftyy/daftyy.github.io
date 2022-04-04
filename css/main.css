@@ -1964,7 +1964,8 @@
  #go-top a {
 	 text-decoration: none;
 	 border: 0 none;
-	 display: block;
+	 display: inline-block;
+	 border-radius: 35%;
 	 height: 6.6rem;
 	 width: 6rem;
 	 line-height: 6.6rem;
