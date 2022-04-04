@@ -1916,6 +1916,9 @@
  footer .footer-social li a {
 	 color: #FFFFFF;
  }
+ footer .footer-social li a:hover {
+	color: #713db7;
+}
  footer .copyright span {
 	 display: inline-block;
  }
