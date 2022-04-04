@@ -205,7 +205,7 @@
 window.onscroll = function() {headerOpacityFunction()};
 var intro_height = document.getElementById('intro'). offsetHeight;
 function headerOpacityFunction() {
-	if (document.body.scrollTop >= 0 || document.body.scrollTop >= 0) {
-		document.getElementById("headerbg").style.opacity = 1 - ((intro_height - document.documentElement.scrollTop)/ intro_height)
+	if (document.body.scrollTop >= 0 || document.getElementById("headerbg").style.opacity <= 1) {
+		document.getElementById("headerbg").style.opacity = Math.min(1, 1 - ((intro_height - document.documentElement.scrollTop)/ intro_height))
 	}
 }
