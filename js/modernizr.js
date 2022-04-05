@@ -1,4 +1,4 @@
-// Rotary loader
+// ROTARY LOADER
 
 /* Modernizr 2.8.3 (Custom Build) | MIT & BSD
  * Build: http://modernizr.com/download/#-shiv-cssclasses-load
