@@ -1957,23 +1957,6 @@ header .logo a {
 #contact button.submitform:hover, #contact button.submitform:focus {
 	background: #44246d;
 }
-#message-warning, #message-success {
-	display: none;
-	background: #0d0d0d;
-	border-radius: 3px;
-	padding: 3rem;
-	margin-bottom: 3.6rem;
-	width: 100%;
-}
-#message-warning {
-	color: #fa0003;
-}
-#message-success {
-	color: #713db7;
-}
-#message-warning i, #message-success i {
-	margin-right: 10px;
-}
 
 .contact-info {
 	margin: 4.8rem auto 0;
