@@ -730,18 +730,24 @@
 		<div class="row contact-form">	
 			<div class="col-twelve">	
 		 		<!-- form -->
-		 		<form  method="POST" action="https://getform.io/f/b115e2c5-1c37-4331-b1b1-ff655c301613">
-				   	<fieldset>	
-				   		<input name="contactName" type="text" placeholder="Name" value="" minlength="2" required="">
-
-					   	<input name="contactEmail" type="email" placeholder="Email" value="" required="">
-
-				 		<input name="contactSubject" type="text" placeholder="Subject" value="">
-
-						<textarea name="contactMessage" placeholder="Message" rows="10" cols="50" required=""></textarea>
-
-						<button class="submitform" type="submit">Submit</button>
-				   	</fieldset>
+		 		<form id="contactisme" name="contact" method="POST" action="https://getform.io/f/b115e2c5-1c37-4331-b1b1-ff655c301613" autocomplete="off" onsubmit="resetthecontactform">
+					<fieldset>
+						<div class="form-field">
+							<input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+						</div>
+						<div class="form-field">
+							<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+						</div>
+						<div class="form-field">
+							<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+						</div>                       
+						<div class="form-field">
+							<textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required=""></textarea>
+						</div>                      
+					   	<div class="form-field">
+						   	<button class="submitform">Submit</button>
+						</div>
+					</fieldset>
 		   		</form> <!-- Form End -->
 			</div> <!-- /col-twelve -->
 		</div> <!-- /contact-form -->

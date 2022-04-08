@@ -712,43 +712,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 
 
-/**
- * EXTRA
- * alert box
- * -------------------------------------------------------------------
- */
-.alert-box {
-	padding: 2.1rem 4rem 2.1rem 3rem;
-	position: relative;
-	margin-bottom: 3rem;
-	border-radius: 3px;
-	font-family: "poppins-regular", sans-serif;
-	font-size: 1.5rem;
-}
-.alert-box .close {
-	position: absolute;
-	right: 1.8rem;
-	top: 1.8rem;
-	cursor: pointer;
-}
-.ss-error {
-	background-color: #ffd1d2;
-	color: #e65153;
-}
-.ss-success {
-	background-color: #c8e675;
-	color: #758c36;
-}
-.ss-info {
-	background-color: #d7ecfb;
-	color: #4a95cc;
-}
-.ss-notice {
-	background-color: #fff099;
-	color: #bba31b;
-}
-
-
  /**
   * Progress bar for skills
   */

@@ -35,16 +35,6 @@
 
 
 	/*
-	---------------
-	| Alert Boxes |
-  	---------------
-	*/
-	$('.alert-box').on('click', '.close', function() {
-	  $(this).parent().fadeOut(500);
-	});	
-
-
-	/*
 	----------------
 	| Stat Counter |
   	----------------
@@ -246,4 +236,12 @@ function headerOpacityFunction() {
 	if (document.body.scrollTop >= 0 || document.getElementById("headerbg").style.opacity <= 1) {
 		document.getElementById("headerbg").style.opacity = Math.min(1, 1 - ((intro_height - document.documentElement.scrollTop)/ intro_height))
 	}
+}
+
+
+function resetthecontactform() {	
+	document.getElementById("contactName").reset()
+	document.getElementById("contactEmail").reset()
+	document.getElementById("contactSubject").reset()
+	document.getElementById("contactMessage").reset()
 }
