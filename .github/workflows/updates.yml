@@ -27,3 +27,8 @@ jobs:
       with:
         add: 'data.json'
         message: 'Updated listening data in data.json'
+        
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: main # The folder the action should deploy.
