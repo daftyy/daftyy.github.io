@@ -689,7 +689,7 @@
 						<i class="icon-music"></i>
 					</div>
 					<h3 class="stat-count">
-						492348
+						<music>492348</music>
 					</h3>
 					<h5 class="stat-title">
 						Minutes of Music
@@ -709,6 +709,14 @@
 			</div> <!-- /stats-list -->
 		</div> <!-- /twelve -->
 	</div> <!-- /row -->
+	<script>
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data['user']['playcount'])
+                document.querySelector("minutes").innerText = data['user']['playcount'] * 3.5
+        })
+    </script>
 </section> <!-- /stats -->
 
 
