@@ -29,6 +29,6 @@ jobs:
         message: 'Updated listening data in data.json'
         
     - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@v4
+      uses: EdricChan03/action-build-deploy-ghpages@v2.6.0
       with:
-        folder: /home/runner/work/daftyy.github.io/daftyy.github.io # The folder the action should deploy.
+        github_token: ${{ secrets.GITHUB_TOKEN }}
