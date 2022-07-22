@@ -28,7 +28,3 @@ jobs:
         add: 'data.json'
         message: 'Updated listening data in data.json'
         
-    - name: Deploy 🚀
-      uses: EdricChan03/action-build-deploy-ghpages@v2.6.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
