@@ -9,9 +9,10 @@ jobs:
     - name: checkout
       uses: actions/checkout@v1
 
-    - name: deploy docs
-      uses: ./
+    - name: Deploy to GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v3
       with:
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        remote_url: https://github.com/appleboy/gh-pages-action.git
+        target_branch: main
+        build_dir: public
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
