@@ -866,6 +866,15 @@ headerbg {
 	z-index: 600;
 }
 
+/* nav-head-colour {
+	position: fixed;
+	background: black;
+	opacity: 0;
+	width: 100%;
+	min-height: 66px;
+	z-index: 700;
+} */
+
 header {
 	position: fixed;
 	background: transparent;

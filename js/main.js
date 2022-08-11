@@ -121,6 +121,12 @@
    // toggle button
    toggleButton.on('click', function(e) {
 
+		// if(document.getElementById("click-colour").style.opacity == 1) {
+		// 	document.getElementById("click-colour").style.opacity = 0;
+		// }else if(document.getElementById("click-colour").style.opacity == 0) {
+		// 	document.getElementById("headerbg").style.opacity = 1;
+		// }
+		
 		e.preventDefault();
 		toggleButton.toggleClass('is-clicked');
 		nav.slideToggle();
