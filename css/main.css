@@ -873,7 +873,7 @@ nav-head-colour {
 	width: 100%;
 	min-height: 66px;
 	z-index: 700;
-	transition: opacity 0.5s;
+	transition: opacity 0.75s;
 }
 
 header {
