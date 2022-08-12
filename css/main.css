@@ -866,14 +866,15 @@ headerbg {
 	z-index: 600;
 }
 
-/* nav-head-colour {
+nav-head-colour {
 	position: fixed;
 	background: black;
 	opacity: 0;
 	width: 100%;
 	min-height: 66px;
 	z-index: 700;
-} */
+	transition: opacity 0.5s;
+}
 
 header {
 	position: fixed;
@@ -1058,22 +1059,22 @@ header .logo a {
  */
 @media only screen and (max-width:1024px) {
 	header .top-bar {
-		left: 10px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:768px) {
 	header .top-bar {
-		left: 8px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
-		left: 6px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
-		left: 4px;
+		left: 0px;
 	}
 }
 
