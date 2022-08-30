@@ -1,6 +1,6 @@
-# **daftyy.github.io**
+# **neavepaul.github.io**
 ### *W.I.P Web Dev Experiment*
-https://daftyy.github.io/  <br><br><br>
+https://neavepaul.github.io/  <br><br><br>
 
-[![Secret](https://github.com/daftyy/daftyy.github.io/actions/workflows/updates.yml/badge.svg)](https://github.com/daftyy/daftyy.github.io/actions/workflows/updates.yml)
-[![pages-build-deployment](https://github.com/daftyy/daftyy.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/daftyy/daftyy.github.io/actions/workflows/pages/pages-build-deployment)
+[![Secret](https://github.com/neavepaul/neavepaul.github.io/actions/workflows/updates.yml/badge.svg)](https://github.com/neavepaul/neavepaul.github.io/actions/workflows/updates.yml)
+[![pages-build-deployment](https://github.com/neavepaul/neavepaul.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/neavepaul/neavepaul.github.io/actions/workflows/pages/pages-build-deployment)
